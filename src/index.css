@@ -1,0 +1,22 @@
+.toggle-btn {
+  cursor: pointer;
+}
+
+.not-found {
+  width: 350px;
+  height: 300px;
+}
+.find-user {
+  width: 250px;
+  height: 250px;
+}
+.info > span,
+a {
+  padding-left: 5px;
+}
+.info {
+  padding: 5px;
+}
+.full-name {
+  font-weight: bold;
+}

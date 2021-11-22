@@ -1,0 +1,12 @@
+name : name 
+login : username
+created_at : joined at
+bio: bio
+followers: followers
+following : following
+public_repos: repos
+avatar_url : avatar icon
+location: location
+company: org. name
+twitter_username: twitter handle 
+blog: website link
