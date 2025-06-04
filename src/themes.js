@@ -20,7 +20,7 @@ const GlobalStyles = createGlobalStyle`
         font-family: 'Source Code Pro', monospace;
     }
     p, a, span{
-      font-size: clamp(15px, 80%, 24px);;
+      font-size: clamp(15px, 80%, 24px);
     }
 `;
 
