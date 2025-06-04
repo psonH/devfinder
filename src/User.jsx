@@ -55,7 +55,7 @@ const User = ({ userDetails }) => {
             <div className="col-sm-12 col-lg-7">
               <h4 className="full-name">{name}</h4>
               <Link>
-                <a href={`https://github.com/${username}`} target="__blank">
+                <a href={`https://github.com/${username}`} target="_blank">
                   @{username}
                 </a>
               </Link>
@@ -100,7 +100,7 @@ const User = ({ userDetails }) => {
                   <MdLink size="20px" />
                   {blog ? (
                     <Link>
-                      <a href={blog} target="__blank">
+                      <a href={blog} target="_blank">
                         Visit Website
                       </a>
                     </Link>
