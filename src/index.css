@@ -1,22 +1,63 @@
 .toggle-btn {
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes spinIcon {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.toggle-spin {
+  animation: spinIcon 0.4s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .not-found {
-  width: 350px;
-  height: 300px;
+  width: 280px;
+  height: 240px;
 }
+
 .find-user {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
+  opacity: 0.85;
 }
+
+.info {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
 .info > span,
 a {
   padding-left: 5px;
 }
-.info {
-  padding: 5px;
-}
+
 .full-name {
   font-weight: bold;
+}
+
+@media only screen and (max-width: 576px) {
+  .not-found {
+    width: 200px;
+    height: 170px;
+  }
+  .find-user {
+    width: 150px;
+    height: 150px;
+  }
 }
